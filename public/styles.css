@@ -1,0 +1,273 @@
+/* Minimalist and modern styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    /* Light background for contrast */
+}
+
+.navbar {
+    background-color: #fff;
+    /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+.navbar-brand {
+    color: #333 !important;
+    font-family: "Prompt", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+    /* Dark text for contrast */
+    font-weight: 500;
+    margin: 0 8px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+    /* Primary color on hover */
+}
+
+.profile-icon,
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0);
+    /* Black icons */
+    transition: all 0.3s ease;
+}
+
+.profile-icon:hover,
+.menu-icon:hover {
+    filter: brightness(0.7);
+    /* Slightly lighter on hover */
+}
+
+.offcanvas {
+    background-color: #fff;
+    color: #333;
+    max-width: 300px;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* Subtle border */
+}
+
+.offcanvas-title {
+    font-weight: bold;
+}
+
+.offcanvas-body .list-group-item {
+    background: transparent;
+    border: none;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.offcanvas-body .list-group-item img {
+    margin-right: 10px;
+}
+
+.offcanvas-body .list-group-item a {
+    flex-grow: 1;
+}
+
+.offcanvas-body .list-group-item:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: #007bff;
+}
+
+.offcanvas-body .list-group-item:hover a {
+    color: #007bff;
+}
+
+.btn-close {
+    filter: brightness(0);
+    /* Black close button */
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.auth-container .form-control {
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.auth-container .btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.auth-container .toggle-link {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.auth-container .toggle-link:hover {
+    text-decoration: underline;
+}
+
+.auth-container .social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth-container .social-login .btn {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.auth-container .social-login .btn:hover {
+    background-color: #f8f9fa;
+}
+
+.auth-container .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.auth-container .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.auth-container .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #fff;
+    /* White background */
+    color: #333;
+    /* Dark text for contrast */
+    padding: 100px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    /* Larger font size for emphasis */
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #007bff;
+    /* Primary color for the heading */
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+    /* Slightly lighter text for the paragraph */
+}
+
+.hero-section .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+}
+
+.hero-section .btn-primary {
+    background-color: #007bff;
+    /* Primary color for the button */
+    color: #fff;
+    border: none;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+.hero-section .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.hero-section .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer h5 {
+    color: #333;
+    font-weight: 600;
+}
+
+footer ul li a {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+footer .social-icons a {
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+footer .text-muted {
+    color: #6c757d !important;
+}

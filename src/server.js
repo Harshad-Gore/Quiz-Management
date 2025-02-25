@@ -16,6 +16,10 @@ app.get("/accounts-login-signup", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/accounts.html"));
 });
 
+app.get("/add-new-quiz", (req, res) => {
+  res.sendFile(path.join(__dirname, "../public/quiz.html"));
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`🚀 Server running on http://localhost:${port}`);
